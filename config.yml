@@ -1,0 +1,21 @@
+messenger:
+  send_email: true
+  send_sms: true
+  data_file: '/messagefile.txt'
+  routeros:
+    host: '10.10.10.10'
+    username: 'username'
+    password: 'password'
+  smtp:
+    from_name: "John Doe"
+    from_address: "john@doe.com"
+    host: '10.10.10.10'
+    port: '25'
+    username: 'username'
+    password: 'password'
+  emails:
+            - 'joe@blogs.com'
+            - 'jane@doe.com'
+  mobiles:
+            - '0412345678'
+            - '0498765432'

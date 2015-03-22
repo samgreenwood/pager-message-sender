@@ -1,0 +1,19 @@
+{
+    "name": "samgreenwood/pager-messenger-sender",
+    "description": "Send pager notifications to mobile numbers and emails",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Greenwood",
+            "email": "sam@samgreenwood.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "pear2/net_routeros": "dev-master",
+        "pear2/console_commandline": "dev-master",
+        "swiftmailer/swiftmailer": "~5.4",
+        "symfony/yaml": "~2.6"
+
+    }
+}
